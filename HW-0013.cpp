@@ -4,21 +4,21 @@ int main()
 {
 	int age;
 	char educate;
-	cout << "½Ğ¿é¤J¦~ÄÖ: ";
+	cout << "è«‹è¼¸å…¥å¹´é½¡: ";
 	cin >> age;
-	cout << "¬O§_´N¾Ç¤¤(T/F)?";
+	cout << "æ˜¯å¦å°±å­¸ä¸­(T/F)?";
 	cin >> educate;
 	if (age < 19)
 	{
-		cout << "¥Ø«e¤£¥Î·í§L" << endl;
+		cout << "ç›®å‰ä¸ç”¨ç•¶å…µ" << endl;
 	}
 	else if (educate =='T')
 	{
-		cout << "¥Ø«e¤£¥Î·í§L!" << endl; 
+		cout << "ç›®å‰ä¸ç”¨ç•¶å…µ!" << endl; 
 	}
 	else 
 	{
-		cout << "¸Ó·í§L¤F!" << endl; 
+		cout << "è©²ç•¶å…µäº†!" << endl; 
 	}
 	system("pause");
 	
