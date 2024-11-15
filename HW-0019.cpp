@@ -3,7 +3,7 @@ using namespace std;
 int main(){
 	char choice;
 	do{
-		cout << "­n¦Y¬µÂû¶Ü?¼ö¶q«Ü°ª³á(Y/N)";
+		cout << "­要吃炸雞嗎?熱量很高喔!(Y/N)";
 		cin >> choice;
 	}
 	while(choice != 'N');
