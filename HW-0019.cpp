@@ -3,7 +3,7 @@ using namespace std;
 int main(){
 	char choice;
 	do{
-		cout << "­n¦Y¬µÂû¶Ü?¼ö¶q«Ü°ª³á(Y/N)";
+		cout << "Â­nÂ¦YÂ¬ÂµÃ‚Ã»Â¶Ãœ?Â¼Ã¶Â¶qÂ«ÃœÂ°ÂªÂ³Ã¡(Y/N)";
 		cin >> choice;
 	}
 	while(choice != 'N');
