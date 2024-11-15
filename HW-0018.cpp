@@ -8,11 +8,11 @@ int main(){
 	int min_num = 0;
 	
 	while(1){
-		cout << "²q¤@­Ó" <<  min_num << "¨ì" << max_num << "¤§¶¡ªº¼Æ: ";
+		cout << "çŒœä¸€å€‹" <<  min_num << "åˆ°" << max_num << "ä¹‹é–“çš„æ•¸: ";
 		cin >> guess;
 		time++;
 		if(guess == my_num){
-			cout << "BANG!µª¹ï¤F! " << "¤@¦@²q¤F" << time << "¦¸";
+			cout << "BANG!ç­”å°äº†! " << "ä¸€å…±çŒœäº†" << time << "æ¬¡";
 			break;
 		}
 		else if(guess>= my_num && guess <= max_num){
@@ -22,7 +22,7 @@ int main(){
 			min_num = guess;
 		}
 		else{
-			cout << "§O¾x¤F!!" << endl; 
+			cout << "åˆ¥é¬§äº†!!" << endl; 
 		}
 		
 	}	
