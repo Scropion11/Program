@@ -4,15 +4,15 @@ int main()
 {
 	int p_clothes = 250,p_pant = 300,p_vest = 200;
 	int n_clothes,n_pants,n_vests;
-	cout << "½Ğ¿é¤J±ıÁÊ¶Rªº¤W¦ç¼Æ¶q:"; 
+	cout << "è«‹è¼¸å…¥æ¬²è³¼è²·çš„ä¸Šè¡£æ•¸é‡:"; 
 	cin >> n_clothes;
-	cout << "½Ğ¿é¤J±ıÁÊ¶Rªº¿Ç¤l¼Æ¶q:";
+	cout << "è«‹è¼¸å…¥æ¬²è³¼è²·çš„è¤²å­æ•¸é‡:";
 	cin >> n_pants;
-	cout << "½Ğ¿é¤J±ıÁÊ¶Rªº­I¤ß¼Æ¶q:";
+	cout << "è«‹è¼¸å…¥æ¬²è³¼è²·çš„èƒŒå¿ƒæ•¸é‡:";
 	cin >> n_vests;
 	int T1 = (n_clothes)*(p_clothes);
 	int T2 = (n_pants)*(p_pant);
 	int T3 = (n_vests)*(p_vest);
-	cout << "©Ò¿ïÁÊªº¦çªAÁ`»ù®æ¤@¦@¬O:" << T1+T2+T3 << " ¤¸" << endl;
+	cout << "æ‰€é¸è³¼çš„è¡£æœç¸½åƒ¹æ ¼ä¸€å…±æ˜¯:" << T1+T2+T3 << " å…ƒ" << endl;
 	system("pause"); 
 }  
