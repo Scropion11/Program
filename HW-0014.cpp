@@ -3,9 +3,9 @@ using namespace std;
 int main()
 {
 	int num_1,num_2,ans,choice;
-	cout << "½Ð¿é¤J¨â­Ó¾ã¼Æ: ";
+	cout << "è«‹è¼¸å…¥å…©å€‹æ•´æ•¸: ";
 	cin >> num_1 >> num_2;
-	cout << "1.¥[ªk, 2.´îªk, 3.­¼ªk, 4.°£ªk";
+	cout << "1.åŠ æ³•, 2.æ¸›æ³•, 3.ä¹˜æ³•, 4.é™¤æ³•";
 	cin >> choice;
 	switch(choice)
 	{
@@ -26,7 +26,7 @@ int main()
 			cout << ans << endl;
 			break;
 		default:
-			cout << "¿é¤J¦³»~" << endl;
+			cout << "è¼¸å…¥æœ‰èª¤" << endl;
 			break;
 		 
 	}
