@@ -3,11 +3,11 @@ using namespace std;
 int main()
 {
 	char input;
-	cout << "§A³ßÅwKevin¶Ü? (Y/N): " << endl;
+	cout << "ä½ å–œæ­¡Kevinå—? (Y/N): " << endl;
 	cin >> input;
 	while (input != 'Y')
 	{
-		cout << "¯uªº¤£¦Ò¼{¤@¤U¶Ü (¢E¡¾¢E)" << endl << "½Ğ­«·s¿é¤J¡G"; 
+		cout << "çœŸçš„ä¸è€ƒæ…®ä¸€ä¸‹å— (ã€’â–½ã€’)" << endl << "è«‹é‡æ–°è¼¸å…¥ï¼š"; 
 		cin >> input;
 	}
 	
