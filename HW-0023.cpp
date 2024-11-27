@@ -11,7 +11,7 @@ int main(){
 			j=j+1;
 		}
 		if (flag == 1){
-			cout << i << " ¬°½è¼Æ"<< endl; 
+			cout << i << " ç‚ºè³ªæ•¸"<< endl; 
 		}
 	system("pause");
 	}
