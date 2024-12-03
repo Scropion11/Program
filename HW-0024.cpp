@@ -4,7 +4,7 @@ int main(){
 	int expenditure[7];
 	int i;
 	for (i = 0;i <= 6;i++){
-		cout << "¿é¤J¤ä¥X: ";
+		cout << "è¼¸å…¥æ”¯å‡º: ";
 		cin >> expenditure[i];
 	}
 	for (i = 0;i <= 6;i++){
@@ -14,6 +14,6 @@ int main(){
 	for (i = 0;i <= 6;i++){
 		total += expenditure[i];
 	}
-	cout << "Á`¤ä¥X¬°" << total << endl; 
+	cout << "ç¸½æ”¯å‡ºç‚º" << total << endl; 
 	return 0;
 } 
